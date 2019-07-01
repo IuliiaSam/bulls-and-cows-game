@@ -2,7 +2,9 @@
   "name": "2019-07-01",
   "version": "1.0.0",
   "description": "bulls and cows",
+  "homepage": "https://iuliiasam.github.io/bulls-and-cows-game/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-redux": "^6.0.1",
@@ -10,7 +12,12 @@
     "redux": "^4.0.1"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "Iuliia Sam",
   "license": "ISC",
