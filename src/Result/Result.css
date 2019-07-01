@@ -1,0 +1,11 @@
+.result-container {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: greenyellow;
+    font-weight: 800;
+  }
+  
+  .result-text {
+    padding: 1rem;
+    line-height: 1.5;
+  }

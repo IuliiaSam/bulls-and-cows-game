@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.input {
+    font-size: 1.2rem;
+    font-family: monospace;
+    height: 2rem;
+    border: 2px solid #d4c7bc;
+    text-align: center;
+}
+
+.button {
+    min-width: 4rem;
+    height: 2rem;
+    padding: 0 1rem;
+    margin: 1rem;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #7e4534;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:	#7e4534;
+}
+
